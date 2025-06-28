@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'gabarito',sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+   
+   
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.navbar__a2__button{
+    width: 70px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+.whereto{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+    
+
+.search{
+    text-decoration: underline;
+}
+.categories__option{
+    margin-top: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.searchbar{
+     margin-left: 350px;
+       border: solid black 2px;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    width: 800px;
+     display: flex;
+    justify-content: space-between;
+    
+}
+.searchbar__a1 input{
+    border: none;
+    margin-left: 8px;
+    font-size: 20px;
+}
+.searchbar__a1 input:focus{
+    outline: none;
+}
+.search__button{
+    width: 60px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: lightgreen;
+}
+.search__button:hover{
+    cursor: pointer;
+}
+
+.navbar__a1{
+    display: flex;
+    align-content: center;
+    gap: 80px;
+}
+.navbar__a1 img{
+    height: 30px;
+}
+.images {
+  margin-top: 50px;
+ margin-left: 400px;
+  background-color: brown;
+  height: 500px;
+  width: 800px;
+}
+.images img{
+    height: 490px;
+    margin-top: 5px;
+    margin-left: 10px;
+    
+}
+.sale__img{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.sale__img h1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+.sale__img p{
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 700px;
+    left: 800px;
+}
+.sale__img button{
+    display: flex;
+    position: absolute;
+    top: 780px;
+    left: 850px;
+    height: 34px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 20px;
+}
+.sale__img button:hover{
+    color:blue;
+    background-color: yellow;
+    cursor: pointer;
+}
+.navbar__a2__button:hover{
+    cursor: pointer;
+    
+}
+
+.categories__option p:hover{
+    cursor: pointer;
+    background-color:peru;
+    color: white;
+    border-radius: 25%;
+}
+
+
+
